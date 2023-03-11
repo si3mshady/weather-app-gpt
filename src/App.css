@@ -4,6 +4,14 @@
   padding: 20px;
 }
 
+
+.app > h1 {
+  text-align: center;
+  /* margin: auto; */
+  color: #00ff00; /* Matrix green */
+}
+
+
 /* Style for the weather card container */
 .weather-cards-container {
   display: flex;

@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>5-Day Weather Forecast for {CITY}</h1>
+      <h1>{DAYS} -Day Weather Forecast for {CITY}</h1>
       <div className="weather-cards-container">
         {weatherData &&
           weatherData.forecast.forecastday.map((forecast) => (
