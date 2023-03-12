@@ -1,0 +1,59 @@
+/* Set background color for the app */
+.app {
+    background-color: #ff0000; /* Spider Man Red */
+    padding: 20px;
+  }
+  
+  
+  .app > h1 {
+    text-align: center;
+    /* margin: auto; */
+    color: #0000ff; /* Spider Man Blue */
+  }
+  
+  
+  /* Style for the weather card container */
+  .weather-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 9px;
+  }
+  
+  /* Style for each weather card */
+  .weather-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(20% - 20px);
+    max-width: calc(20% - 20px);
+    height: 280px;
+    background-color: #000000; /* Spider Man Black */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3); /* Spider Man Red */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    color: #ffffff; /* Spider Man White */
+  }
+  
+  /* Add 3D box shadow effect when hovering over a card */
+  .weather-card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.6); /* Spider Man Blue */
+    transform: translateY(-10px);
+  }
+  
+  /* Add spinning effect when hovering over a card */
+  .weather-card:hover img {
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Define the spinning animation */
+  @keyframes spin {
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  

@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
-import "./App.css"; // Import CSS file for styling
+// import "./App.css"; // Import CSS file for styling
+import "./Matrix.css"
+// import "./SpiderMan.css"
+// import "./WizKalifa.css"
+
 
 const API_KEY = "e1a86fb0740d40ce8bd202845231103";
 const CITY = "Dallas";
